@@ -11,4 +11,4 @@ Default interaction distance is set to: 1 meter
 No other specific requirements. 
 
 ## Demo
-https://user-images.githubusercontent.com/49197458/177235483-47205400-ca9b-4dd8-a045-18376cad2a5a.mp4
+https://user-images.githubusercontent.com/49197458/177235926-cc52df42-ac00-48f0-a5fe-5a6d39a27b5b.mp4
