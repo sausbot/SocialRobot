@@ -6,10 +6,12 @@ import furhatos.flow.kotlin.*
 val Greeting : State = state(Parent) {
     onEntry {
         random(
-                {furhat.say("Hi there")},
-                {furhat.say("Oh hello there")}
+            { furhat.ask("Hi there") },
+            { furhat.ask("Oh hello there") }
         )
+    }
 
+    onResponse {
         goto(TalkAboutFeelings)
     }
 }

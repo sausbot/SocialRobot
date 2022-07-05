@@ -7,7 +7,7 @@ import furhatos.util.Language
 // Our Emotions entity.
 class Emotions : EnumEntity(stemming = true, speechRecPhrases = true) {
     override fun getEnum(lang: Language): List<String> {
-        return listOf("happy", "sad", "angry", "good", "bad")
+        return listOf("happy", "sad", "angry", "good", "bad", "okay", "well")
     }
 }
 
